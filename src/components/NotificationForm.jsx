@@ -42,7 +42,7 @@ const NotificationForm = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center border rounded-md px-5 py-3 w-1/5">
+    <div className="flex flex-col justify-center items-center border rounded-md px-5 py-3 md:w-1/5">
       <h1 className="text-2xl py-3">Notification Content</h1>
       <form
         onSubmit={onSubmit}
